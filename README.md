@@ -2,6 +2,8 @@
 
 A new Flutter project.
 
+Dieses Projekt ist in Form meines IHK Projetes entstanden.
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
