@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "193990744427",
+    "firebase_url": "https://azubi-knowhow-building.firebaseio.com",
+    "project_id": "azubi-knowhow-building",
+    "storage_bucket": "azubi-knowhow-building.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193990744427:android:3e38015d053f7326a8142e",
+        "android_client_info": {
+          "package_name": "com.example.ihk_projekt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193990744427-auiehrj30pd8uht2pg770b56rrcbbi5r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCTllQIaoI_J-rw4Ygj9WI5odh1VpJotE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "193990744427-auiehrj30pd8uht2pg770b56rrcbbi5r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
