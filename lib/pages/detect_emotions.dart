@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ihk_projekt/pages/detect_text_page.dart';
+import 'package:ihk_projekt/widgets/architecture_dialog.dart';
 import 'dart:io';
 import 'package:image_picker/image_picker.dart';
 import 'package:ihk_projekt/models/imageData.dart';
@@ -79,6 +80,19 @@ class _DetectEmotionPageState extends State<DetectEmotionPage> {
         iconTheme: IconThemeData(color: Theme.of(context).primaryColor),
         elevation: 0,
         backgroundColor: Theme.of(context).backgroundColor,
+        actions: [
+          Padding(
+            padding: const EdgeInsets.only(right: 20.0),
+            child: IconButton(
+              iconSize: 27,
+              icon: Icon(Icons.info),
+              onPressed: () {
+                showDialog(
+                    context: context, builder: (_) => ArchitectureDialog());
+              },
+            ),
+          ),
+        ],
       ),
       body: SingleChildScrollView(
         child: Center(

@@ -19,10 +19,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'IHK Projekt',
       theme: ThemeData(
         primarySwatch: Colors.blue,
-        primaryColor: Color(0xff457EF6),
+        primaryColor: Color(0xff0066A1),
         textSelectionColor: Color(0xff515151),
         backgroundColor: Color(0xffF9F9F9),
         visualDensity: VisualDensity.adaptivePlatformDensity,

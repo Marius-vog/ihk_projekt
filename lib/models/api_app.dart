@@ -22,7 +22,7 @@ final List<ApiApp> apiApps = [
       name: "Detect text in an image",
       apiName: "Vison API",
       route: "/detectText",
-      color: Color(0xff457EF6)),
+      color: Color(0xff0066A1)),
   new ApiApp(
       icon: Icon(Icons.remove_red_eye),
       name: "Get labels for an image",

@@ -30,13 +30,22 @@ class MainPage extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.only(bottom: 20.0),
-            child: Text(
-              "Your GCP Quickstart",
-              style: TextStyle(
-                  color: Theme.of(context).textSelectionColor,
-                  fontSize: 20.0,
-                  fontWeight: FontWeight.w800),
+            padding: const EdgeInsets.only(bottom: 16.0),
+            child: Row(
+              children: [
+                Text(
+                  "Your GCP Quickstart by ",
+                  style: TextStyle(
+                      color: Theme.of(context).textSelectionColor,
+                      fontSize: 20.0,
+                      fontWeight: FontWeight.w800),
+                ),
+                Image(
+                  image: AssetImage('assets/Atos_Logo.png'),
+                  width: width * 0.15,
+                )
+              ],
+              crossAxisAlignment: CrossAxisAlignment.center,
             ),
           ),
           QuickstartInfo(height: height, width: width),
